@@ -1,0 +1,45 @@
+.btn {
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.25s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+
+.type-0 {
+    color: var(--color-buton-text);
+    background: var(--color-button);
+}
+
+.type-0:hover {
+    background: var(--color-hover);
+}
+
+.type-0:active {
+    background: var(--color-active);
+}
+
+.type-1 {
+    color: var(--color-buton-text);
+    background: transparent;
+}
+
+.type-1:hover {
+    background: rgba(108, 108, 108, 0.2);
+}
+
+.type-1:active {
+    background: rgba(108, 108, 108, 0.5);
+}
+
+.type-2:active {
+    background: rgba(108, 108, 108, 0.5);
+}

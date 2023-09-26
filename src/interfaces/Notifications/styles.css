@@ -1,0 +1,30 @@
+.notifications {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-buton-text);
+    z-index: 999;
+    width: 400px;
+}
+
+.notify {
+    position: relative;
+    font-weight: 600;
+    padding: 20px 20px 20px 50px;
+    background: #2c2c2c;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.status {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("./assets/images/error-icon.svg") no-repeat center center;
+    background-size: 100%;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
